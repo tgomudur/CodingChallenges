@@ -36,9 +36,10 @@ So, the classic problem is written like 3 3 2 for 3 missionaries, 3 cannibals, a
 Your solution should be, for each test case, some text that looks basically like the output you see above, which includes:
 
 \# missionaries, \# cannibals on the originating bank
+
 \# missionaries, \# cannibals on the destination bank
-\# missionaries, \# cannibals on the boat
-direction the boat is heading
+
+\# missionaries, \# cannibals on the boat direction the boat is heading
 
 The text doesn't have to be exactly the same as the sample solution for the above example, but your solution must meet all of the requirements for the solution and the submission. If the problem has no valid solution, simply state that the problem has no solution.
 
