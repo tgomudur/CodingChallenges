@@ -22,18 +22,13 @@ Easy, right? You could do that without a computer in your head. Now, what about 
 Given M missionaries, C cannibals, and P people per boat capacity, give the sequence of actions for crossing the river safely.
 
 **Some notes:**
- - For scenarios of P >=3, if there are missionaries present on the
-   boat, they cannot be outnumbered by cannibals. (Same rule as the banks)
-- After a boat crossing, all passengers must disembark onto
-   the shore, therefore a boat cannot be used as a safe place. The boat
-   cannot cross the river by itself. 
+ - For scenarios of P >=3, if there are missionaries present on the boat, they cannot be outnumbered by cannibals. (Same rule as the banks)
+- After a boat crossing, all passengers must disembark onto the shore, therefore a boat cannot be used as a safe place. The boat cannot cross the river by itself. 
 - You need at least one rower. 
 - Not EVERY combination of M, C, and P is solvable. 
-- Solutions are not necessarily unique, but your solution must be a minimum crossings
-   solution.
+- Solutions are not necessarily unique, but your solution must be a minimum crossings solution.
 
- 
- **The Problem**
+**The Problem**
  
 Write the solver described above, and then use it to solve the following problems. They are written as M C P. 
 So, the classic problem is written like 3 3 2 for 3 missionaries, 3 cannibals, and a boat capacity of 2.
