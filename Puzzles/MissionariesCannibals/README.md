@@ -28,8 +28,7 @@ Given M missionaries, C cannibals, and P people per boat capacity, give the sequ
    -  Not EVERY combination of M, C, and P is solvable. 
    -  Solutions are not necessarily unique, but your solution must be a minimum crossings solution.
 
- 
- **The Problem**
+**The Problem**
  
 Write the solver described above, and then use it to solve the following problems. They are written as M C P. 
 So, the classic problem is written like 3 3 2 for 3 missionaries, 3 cannibals, and a boat capacity of 2.
